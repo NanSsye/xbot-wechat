@@ -1,0 +1,21 @@
+# 编译输出
+/app
+*.log
+*.tmp
+*.out
+// *.exe
+// *.dll
+// *.so
+// *.dat
+
+# IDE
+.idea/
+.vscode/
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Docker
+**/app
+**/app/* 

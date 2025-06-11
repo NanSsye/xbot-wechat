@@ -1,0 +1,1 @@
+java -jar ipadWs.jar --xjar.password="" -DSpring.config.location=./application.yml -Duser.timezone=Asia/Shanghai -Xms4096M -Xmx8192M -XX:+HeapDumpOnOutOfMemoryError -XX:+PrintGCDateStamps  -XX:+PrintGCDetails -XX:NewRatio=1 -XX:SurvivorRatio=30 -XX:+UseParallelGC -XX:+UseParallelOldGC

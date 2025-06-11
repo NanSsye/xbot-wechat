@@ -1,0 +1,18 @@
+version: "3.8"
+services:
+  xbot-wechat:
+    image: nanssye/xbot-wechat:latest
+    container_name: xbot-wechat
+    restart: unless-stopped
+    ports:
+      - "8099:8099"
+      - "9011:9011"
+      - "9010:9010"
+    volumes:
+      - xbot-data:/app
+    environment:
+      - TZ=Asia/Shanghai
+
+volumes:
+  xbot-data:
+    name: xbot-wechat-data
